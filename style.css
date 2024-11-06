@@ -1,0 +1,40 @@
+/* Mengubah background halaman utama */
+
+
+/* CSS file (style.css) */
+
+.title {
+    text-align: center;
+    color: #f1f3fc;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+body {
+    background-color: #f0f8ff;
+    /* Warna background yang cerah */
+}
+
+
+/* Mengubah background sidebar */
+
+.sidebar .sidebar-content {
+    background-color: #ffffff;
+    /* Background putih di sidebar */
+}
+
+
+/* Opsional: Mengubah warna elemen tombol */
+
+.stButton>button {
+    background-color: #4A4E69;
+    color: white;
+    border: None;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.stButton>button:hover {
+    background-color: #9A8C98;
+}
