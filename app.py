@@ -97,6 +97,7 @@ if submit:
 
             # Tampilkan ringkasan data saham
             col1.metric("Harga Saat Ini", stock_data['Close'].iloc[-1])
+            col2.metric("Perubahan Harian", f"{(stock_data['Close'].pct_change().iloc[-1] * 100):.2f}%")
             col3.metric("Volume", stock_data['Volume'].iloc[-1])
 
         # **Tab 2: Grafik**
@@ -136,7 +137,6 @@ if submit:
                 date = index.date()
                 current_price = row['Close']
                 price_change_percent = ((current_price - entry_price) / entry_price) * 100 if entry_price != 0 else 0
-
                 result = "❗Belum mencapai target atau stop-loss"
                 if low < stop_loss:
                     result = f"⚠️ Stop-loss tercapai dengan harga {low}"
