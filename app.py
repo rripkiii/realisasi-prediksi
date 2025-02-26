@@ -18,7 +18,7 @@ def load_css(file_name):
 load_css("style.css")
 
 # Daftar contoh kode saham yang umum digunakan
-saham_list = ["AALI", "ABMM.JK", "ACES.JK", "ADHI.JK", "ADRO.JK", "AGRO.JK", "AISA.JK", "AKRA.JK", "AMFG.JK", "AMRT.JK", "ANTM.JK", 
+saham_list = ["AALI.JK", "ABMM.JK", "ACES.JK", "ADHI.JK", "ADRO.JK", "AGRO.JK", "AISA.JK", "AKRA.JK", "AMFG.JK", "AMRT.JK", "ANTM.JK", 
 "APLN.JK", "ARNA.JK", "ARTO.JK", "ASGR.JK", "ASII.JK", "ASRI.JK", "ASSA.JK", "AUTO.JK", "BACA.JK", "BALI.JK", "BBCA.JK",
 "BBHI.JK", "BBKP.JK", "BBNI.JK", "BBRI.JK", "BBTN.JK", "BBYB.JK", "BCAP.JK", "BDMN.JK", "BEST.JK", "BFIN.JK", "BINA.JK",
 "BIRD.JK", "BISI.JK", "BJBR.JK", "BJTM.JK", "BMRI.JK", "BMTR.JK", "BNGA.JK", "BNII.JK", "BRMS.JK", "BRPT.JK", "BSDE.JK",
