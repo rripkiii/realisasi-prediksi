@@ -97,7 +97,8 @@ if submit:
 
             # Tampilkan ringkasan data saham
             col1.metric("Harga Saat Ini", stock_data['Close'].iloc[-1])
-            col2.metric("Perubahan Harian", f"{(stock_data['Close'].pct_change().iloc[-1] * 100):.2f}%")
+            perubahan_harian = stock_data['Close'].pct_change().fillna(0).iloc[-1] * 100
+            col2.metric("Perubahan Harian", f"{perubahan_harian:.2f}%")
             col3.metric("Volume", stock_data['Volume'].iloc[-1])
 
         # **Tab 2: Grafik**
